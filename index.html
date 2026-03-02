@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Susan Wainer — Mixed Media Paintings</title>
+  <meta name="description" content="Mixed media paintings by Susan Wainer. Holland, PA.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#" class="logo">Susan Wainer</a>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Susan Wainer</h1>
+      <p class="tagline">Mixed Media Paintings</p>
+    </section>
+
+    <section id="work" class="gallery">
+      <div class="gallery-grid">
+        <div class="gallery-row landscape-row">
+          <div class="gallery-item" data-index="0">
+            <img src="images/four-seasons.jpg" alt="Four Seasons" loading="lazy">
+          </div>
+        </div>
+        <div class="gallery-row">
+          <div class="gallery-item" data-index="1">
+            <img src="images/painting-1.jpg" alt="Mixed media painting" loading="lazy">
+          </div>
+        </div>
+        <div class="gallery-row">
+          <div class="gallery-item" data-index="2">
+            <img src="images/painting-2.jpg" alt="Mixed media painting" loading="lazy">
+          </div>
+        </div>
+        <div class="gallery-row landscape-row">
+          <div class="gallery-item" data-index="3">
+            <img src="images/garden-of-eden.jpg" alt="Garden of Eden" loading="lazy">
+          </div>
+        </div>
+        <div class="gallery-row">
+          <div class="gallery-item" data-index="4">
+            <img src="images/painting-3.jpg" alt="Mixed media painting" loading="lazy">
+          </div>
+        </div>
+        <div class="gallery-row">
+          <div class="gallery-item" data-index="5">
+            <img src="images/painting-4.jpg" alt="Mixed media painting" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-inner">
+        <h2>Contact</h2>
+        <p>
+          <a href="mailto:susanwainer@hotmail.com">susanwainer@hotmail.com</a>
+        </p>
+        <p><a href="tel:2158607038">215-860-7038</a></p>
+        <p>Holland, PA</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Susan Wainer</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous image">&#8249;</button>
+    <button class="lightbox-next" aria-label="Next image">&#8250;</button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightbox-img">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
